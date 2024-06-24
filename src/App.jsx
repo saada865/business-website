@@ -1,12 +1,13 @@
-import React from "react";
-import Home from "../src/components/home/Home";
+import Header from "./components/utils/Header";
+import Home from "./components/home/Home";
 
-const App = () => {
+function App() {
   return (
     <div className="">
-      <div className=""></div>
+      <Header />
+      <Home />
     </div>
   );
-};
+}
 
 export default App;

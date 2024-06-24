@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import Services from "./Services";
+import Top from "./Top";
 
 const Home = () => {
   return (
-    <div className=''>
-        
+    <div>
+      <Top />
+      <Services />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
