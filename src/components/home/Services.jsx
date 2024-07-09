@@ -12,8 +12,10 @@ const Services = () => {
     <div className=" pt-10 bg-[#F5F5F5]">
       <div className=" flex flex-col items-center text-center">
         <div>
-          <p className=" text-lg text-green-500">Our Services</p>
-          <h2 className=" text-4xl font-semibold">
+          <p className=" text-3xl font-semibold text-green-500 my-8">
+            Our Services
+          </p>
+          <h2 className=" text-5xl font-semibold">
             High-impact services
             <p>for your business</p>
           </h2>
