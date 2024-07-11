@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -10,9 +11,17 @@ const Header = () => {
           <h1 className=" text-2xl font-bold">Canvix</h1>
         </div>
         <ul className="flex flex-row space-x-10 text-sm">
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact Us</li>
+          <li>
+            <Link to="/">
+              <p>Home</p>
+            </Link>
+          </li>
+          <li>
+            <Link to="/about">About </Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
         </ul>
         <div className=" font-thin px-3 py-2 text-sm rounded-3xl bg-white text-black">
           <a href="#">Get in touch</a>

@@ -4,6 +4,7 @@ import Top from "./Top";
 import CoreMission from "./CoreMission";
 import Process from "./Process";
 import RecentProjects from "./RecentProjects";
+import CarouselParent from "./CarouselParent";
 
 const Home = () => {
   return (
@@ -13,6 +14,8 @@ const Home = () => {
       <CoreMission />
       <Process />
       <RecentProjects />
+      <CarouselParent />
+      {/* <Carousel /> */}
     </div>
   );
 };
