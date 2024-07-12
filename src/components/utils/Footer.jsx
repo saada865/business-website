@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
         <hr className=" mt-24 h-px my-8 bg-white border-0 dark:bg-gray-700" />
 
-        <div className="block lg:flex flex-row justify-between">
+        <div className="block lg:flex flex-row justify-evenly space-y-2">
           <div className="flex flex-col text-white">
             <h2 className="text-white font-semibold text-xl">Copyright By</h2>
             <p className="">

@@ -42,7 +42,7 @@ const Top = () => {
             </div>
           </div>
         </div>
-        <div className="mx-36 pb-2">
+        <div className="md:mx-36 sm:mx-14 pb-2">
           <img className="" src={img1} alt="img1" />
         </div>
       </div>
