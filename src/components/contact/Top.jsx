@@ -19,8 +19,8 @@ const Top = () => {
           <hr className="bg-gray-300 h-px border-0 my-10 " />
           <div className="flex flex-col">
             <Link img={email} title="Email us" text="hello@gmail.com" />
-            <Link img={call} title="Email us" text="hello@gmail.com" />
-            <Link img={location} title="Email us" text="hello@gmail.com" />
+            <Link img={call} title="Call us" text="+123 456 7892" />
+            <Link img={location} title="Find us" text="Open Google Maps" />
           </div>
 
           <hr className="bg-gray-300 h-px border-0 my-10 " />
