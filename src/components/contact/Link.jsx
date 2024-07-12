@@ -8,7 +8,7 @@ const Link = ({ img, title, text }) => {
       </div>
 
       <div className="flex flex-col">
-        <h2 className="text-2xl">{title}</h2>
+        <h2 className="text-2xl font-semibold">{title}</h2>
         <p>{text}</p>
       </div>
     </div>
