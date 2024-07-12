@@ -1,14 +1,12 @@
 import React from "react";
 import logo from "../assets/logo.png";
-import { IoLogoInstagram } from "react-icons/io5";
-import { CiLinkedin } from "react-icons/ci";
-import { FiFacebook } from "react-icons/fi";
+import Logos from "./Logos";
 
 const Footer = () => {
   return (
     <div className="bg-black text-white py-20 px-5">
       <div className="flex flex-col">
-        <div className="flex flex-row justify-between">
+        <div className="block lg:flex flex-row justify-between">
           <div className="flex flex-col w-72">
             <div className="flex flex-row mb-5 text-left items-center items-left">
               <img src={logo} alt="img" />
@@ -35,7 +33,7 @@ const Footer = () => {
             <p className="text-sm">Error 404</p>
             <p className="text-sm">Password Protector</p>
           </div>
-          <div className="flex flex-col font-semibold">
+          <div className="overflow-hidden flex flex-col font-semibold sm:w-1/2 w-auto lg:w-1/3 xl:w-1/4">
             <h2 className="text-xl">Subscribe</h2>
             <div className="flex flex-row rounded-full bg-white p-1 mt-5">
               <input
@@ -50,7 +48,7 @@ const Footer = () => {
         </div>
         <hr className=" mt-24 h-px my-8 bg-white border-0 dark:bg-gray-700" />
 
-        <div className="flex flex-row justify-between">
+        <div className="block lg:flex flex-row justify-between">
           <div className="flex flex-col text-white">
             <h2 className="text-white font-semibold text-xl">Copyright By</h2>
             <p className="">
@@ -66,17 +64,7 @@ const Footer = () => {
             <h2 className="text-xl">Address</h2>
             <p>119 Tanglewood Lane Gulfport, MS 39503</p>
           </div>
-          <div className="flex flex-row justify-evenly gap-4 ">
-            <div className=" rounded-full bg-white w-12 h-12 ">
-              <IoLogoInstagram className=" w-12 h-12 p-2 text-black" />
-            </div>
-            <div className=" rounded-full bg-white w-12 h-12">
-              <CiLinkedin className=" w-12 h-12 p-2 text-black" />
-            </div>
-            <div className="rounded-full bg-white w-12 h-12">
-              <FiFacebook className=" w-12 h-12 p-2 text-black" />
-            </div>
-          </div>
+          <Logos />
         </div>
       </div>
     </div>

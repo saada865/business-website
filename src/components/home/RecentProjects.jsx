@@ -8,9 +8,11 @@ import ProjectCard from "./ProjectCard";
 const RecentProjects = () => {
   return (
     <div className="pt-10 bg-[#F5F5F5] text-center">
-      <h2 className="text-black text-5xl font-semibold">Recent Projects</h2>
+      <h2 className="text-black text-4xl lg:text-5xl font-semibold">
+        Recent Projects
+      </h2>
       <div className="flex flex-col mt-10 mx-10">
-        <div className="flex flex-row text-left justify-between">
+        <div className="block lg:flex flex-row text-left justify-between">
           <ProjectCard
             image={img30}
             title="Motion Design"
@@ -23,7 +25,7 @@ const RecentProjects = () => {
             text="Process Design"
           />
         </div>
-        <div className="flex flex-row text-left justify-between ">
+        <div className="block lg:flex flex-row text-left justify-between ">
           <ProjectCard
             image={img32}
             title="Graphic Design"

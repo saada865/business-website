@@ -12,28 +12,27 @@ const Top = () => {
   return (
     <div
       className=" pt-28 bg-gradient-to-r from-zinc-950 to-neutral-800
-         text-white h-full"
+         text-white h-full px-5"
     >
-      <div className=" flex flex-row">
-        <div className=" mr-10">
+      <div className=" block lg:flex flex-row">
+        <div className="lg:inline hidden mr-10">
           <img className=" w-80" src={design} alt="design" />
         </div>
         <div className=" flex flex-col">
-          <h1 className=" text-7xl mb-10">
+          <h1 className="text-5xl lg:text-7xl mb-10">
             Ready to take your
             <p className="{ } text-green-300 { }">Business Growth </p>
             to the next level?
           </h1>
-          <p className="text-white text-md">
+          <p className="text-white  text-sm lg:text-md">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam,
             nostrum? Explicabo totam earum in, itaque nesciunt eaque optio
-            tenetur, provident natus exercitationem cumque ducimus,
-            necessitatibus numquam error. Obcaecati, necessitatibus alias!
+            tenetur, provident natus exercitationem cumque ducimus.
           </p>
 
           <ArrowCard text="View our work" />
           <div className=" flex flex-col">
-            <p className=" text-green-300 text-2xl font-semibold mb-5">
+            <p className=" text-green-300 text-lg  lg:text-2xl font-semibold mb-5">
               Trusted By Leading Brands
             </p>
             <div className="flex flex-row justify-evenly mb-28">
@@ -43,7 +42,7 @@ const Top = () => {
             </div>
           </div>
         </div>
-        <div className=" flex flex-col mx-36">
+        <div className="mx-36 pb-2">
           <img className="" src={img1} alt="img1" />
         </div>
       </div>

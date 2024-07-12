@@ -12,11 +12,11 @@ const Process = () => {
       <div className="flex flex-col items-center justify-center text-center">
         <div className="">
           <p className="text-green-500 font-semibold text-3xl my-8">Process</p>
-          <h2 className="text-5xl font-semibold text-black">
+          <h2 className="text-3xl lg:text-5xl font-semibold text-black">
             The process that moves things forward
           </h2>
         </div>
-        <div className="flex flex-row mx-5 my-20">
+        <div className="block lg:flex flex-row mx-5 my-20">
           <ProcessCard
             image={img20}
             title="Ideate"

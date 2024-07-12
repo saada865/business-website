@@ -15,12 +15,12 @@ const Services = () => {
           <p className=" text-3xl font-semibold text-green-500 my-8">
             Our Services
           </p>
-          <h2 className=" text-5xl font-semibold">
+          <h2 className=" text-3xl lg:text-5xl font-semibold">
             High-impact services
             <p>for your business</p>
           </h2>
         </div>
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-32 mx-32 my-20">
+        <div className="block lg:grid grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-32 px-2 lg:mx-32 my-20">
           <Card img={img2} />
           <Card img={img3} />
           <Card img={img4} />

@@ -23,7 +23,7 @@ const slides = [
 
 const CarouselParent = () => {
   return (
-    <div className="bg-[#F5F5F5]  p-10">
+    <div className="bg-[#F5F5F5] p-10">
       <div className="flex justify-center items-center h-[500px] bg-neutral-200  rounded-2xl">
         <div className="">
           <Carousel autoSlide={true}>
@@ -37,7 +37,7 @@ const CarouselParent = () => {
                   alt=""
                   className="w-36 h-36 rounded-full mb-4"
                 />
-                <p className="text-2xl italic mb-4">"{slide.review}"</p>
+                <p className="lg:text-2xl italic mb-4">"{slide.review}"</p>
                 <p className="text-sm">{slide.name}</p>
               </div>
             ))}

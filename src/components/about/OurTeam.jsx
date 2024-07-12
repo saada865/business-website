@@ -9,7 +9,7 @@ const OurTeam = () => {
     <div className=" bg-[#F5F5F5] text-black py-20 px-10">
       <div className="flex flex-col text-center ">
         <h2 className="text-5xl font-semibold">Our team</h2>
-        <div className="flex flex-row mt-20 justify-between">
+        <div className="block xl:flex flex-row mt-20 justify-between ">
           <OurTeamCard
             img={team1}
             title="Esther Howards"

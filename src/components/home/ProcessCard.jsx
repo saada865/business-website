@@ -2,7 +2,7 @@ import React from "react";
 
 const ProcessCard = ({ image, title, text }) => {
   return (
-    <div className="flex flex-col text-black mx-5">
+    <div className="flex flex-col text-black mx-5 my-7">
       <div className="flex flex-row mb-10 items-center">
         <div className="  rounded-full p-4 bg-black ">
           <img src={image} className="h-10 w-10  " alt="img20" />

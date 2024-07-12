@@ -4,7 +4,7 @@ import GraphicDesignCard from "./GraphicDesignCard";
 const GraphicDesign = () => {
   return (
     <div className=" bg-[#F5F5F5] ">
-      <div className="flex flex-row py-20 px-10 text-center justify-between gap-8">
+      <div className="block lg:flex flex-row py-20 px-10 text-center justify-between gap-8">
         <GraphicDesignCard
           number="200+"
           title="Were a family"

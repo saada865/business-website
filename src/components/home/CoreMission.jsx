@@ -5,8 +5,8 @@ import ArrowCard from "./ArrowCard";
 const CoreMission = () => {
   return (
     <div className=" bg-black px-10 py-20">
-      <div className="flex flex-row">
-        <img className="pr-10" src={img} alt="img" />
+      <div className="block xl:flex flex-row">
+        <img className="pr-10 " src={img} alt="img" />
         <div className=" flex flex-col ml-10">
           <p className=" text-green-300 text-3xl font-semibold mt-14 mb-8">
             About us
